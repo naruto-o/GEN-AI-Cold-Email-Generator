@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1DwW0s-KfhruEzR6ilnvLuLYJK34kiViT
 """
 
-# comments api key is  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
+# comments api key is  
 
 pip install langchain
 
@@ -19,7 +19,7 @@ from langchain_groq import ChatGroq
 
 llm = ChatGroq(
     temperature=0,
-    groq_api_key="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",
+    groq_api_key=" ",
     model_name="llama-3.3-70b-versatile",
 )
 response = llm.invoke("the first person to land on moon was")
